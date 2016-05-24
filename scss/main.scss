@@ -12,3 +12,20 @@ $grid-gutter-width: 15px;
      list-style: none;
    }
  }
+
+ .wrapper{
+   background: #bbb url('http://unsplash.it/2000/2000') no-repeat;
+   background-size: cover;
+ }
+
+ .img-container{
+   img{
+     max-width: 100%;
+   }
+ }
+
+
+
+
+
+/* */

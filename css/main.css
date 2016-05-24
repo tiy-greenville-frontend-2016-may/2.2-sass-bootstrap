@@ -5813,4 +5813,13 @@ button.close {
 nav ul {
   list-style: none; }
 
+.wrapper {
+  background: #bbb url("http://unsplash.it/2000/2000") no-repeat;
+  background-size: cover; }
+
+.img-container img {
+  max-width: 100%; }
+
+/* */
+
 /*# sourceMappingURL=main.css.map */
