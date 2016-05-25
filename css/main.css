@@ -5820,6 +5820,25 @@ nav ul {
 .img-container img {
   max-width: 100%; }
 
+.main-nav {
+  margin-bottom: 200px; }
+  .main-nav a {
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    text-align: center;
+    text-decoration: none; }
+    .main-nav a:before, .main-nav a:after {
+      display: inline-block;
+      position: absolute;
+      content: "\2014"; }
+    .main-nav a:before {
+      left: 10px; }
+    .main-nav a:after {
+      right: 10px; }
+
 /* */
 
 /*# sourceMappingURL=main.css.map */

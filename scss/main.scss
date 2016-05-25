@@ -24,7 +24,32 @@ $grid-gutter-width: 15px;
    }
  }
 
+.main-nav{
+  margin-bottom: 200px;
 
+  a{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+
+    &:before,
+    &:after {
+      display: inline-block;
+      position: absolute;
+      content: "\2014";
+    }
+    &:before{ left: 10px; }
+    &:after{ right: 10px; }
+  }
+  .nav-item{
+    // background-color: red;
+    // margin: 0 15px;
+  }
+}
 
 
 
